@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKIntroduction", "SKIntroduction\SKIntroduction.csproj", "{F565457C-DEC0-4482-BEF7-B846278C7BF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F565457C-DEC0-4482-BEF7-B846278C7BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F565457C-DEC0-4482-BEF7-B846278C7BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F565457C-DEC0-4482-BEF7-B846278C7BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F565457C-DEC0-4482-BEF7-B846278C7BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3CAF13E-F28F-4F76-914B-85BED41F20A7}
+	EndGlobalSection
+EndGlobal

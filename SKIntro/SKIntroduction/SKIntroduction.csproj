@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+	<TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MinionAgent.yaml" />
+    <None Remove="MinionBLAgent.yaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="MinionBLAgent.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MinionAgent.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Semantickernel" Version="1.13.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Experimental.Agents" Version="1.13.0-alpha" />
+	<PackageReference Include="com.plenom.BusylightSDK" Version="4.0.7" />
+  </ItemGroup>
+
+</Project>

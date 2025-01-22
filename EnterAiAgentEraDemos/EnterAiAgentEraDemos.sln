@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnterAiAgentEraDemos", "EnterAiAgentEraDemos.csproj", "{D93E0732-7F78-44A6-96BF-29DA108DD34D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D93E0732-7F78-44A6-96BF-29DA108DD34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93E0732-7F78-44A6-96BF-29DA108DD34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93E0732-7F78-44A6-96BF-29DA108DD34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93E0732-7F78-44A6-96BF-29DA108DD34D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AFD7B8E-1217-4F9D-9389-7ABE77D975C8}
+	EndGlobalSection
+EndGlobal
